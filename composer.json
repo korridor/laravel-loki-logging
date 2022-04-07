@@ -16,8 +16,8 @@
     "require": {
         "php": "^8.0",
         "ext-json": "*",
-        "illuminate/support": "^8",
-        "illuminate/console": "^8",
+        "illuminate/support": "^8 || ^9",
+        "illuminate/console": "^8 || ^9",
         "monolog/monolog": "^2"
     },
     "autoload": {
