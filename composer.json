@@ -1,6 +1,6 @@
 {
-    "name": "webstasolutions/laravel-loki-logging",
-    "version": "0.1.0",
+    "name": "devig/laravel-loki-logging",
+    "version": "0.1.1",
     "description": "Logging to Loki for Laravel (PHP 8)",
     "type": "library",
     "authors": [
@@ -16,9 +16,9 @@
     "require": {
         "php": "^8.0",
         "ext-json": "*",
-        "illuminate/support": "~8.63.0",
-        "illuminate/console": "~8.63.0",
-        "monolog/monolog": "~2.3.5"
+        "illuminate/support": "^8",
+        "illuminate/console": "^8",
+        "monolog/monolog": "^2"
     },
     "autoload": {
         "psr-4": {
