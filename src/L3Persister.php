@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Websta\LaravelLokiLogging;
+namespace ESolution\LaravelLokiLogging;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Http;

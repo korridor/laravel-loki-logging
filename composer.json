@@ -1,16 +1,12 @@
 {
-    "name": "devig/laravel-loki-logging",
-    "version": "0.1.1",
+    "name": "elgibor-solution/laravel-loki-logging",
+    "version": "1.0.0",
     "description": "Logging to Loki for Laravel (PHP 8)",
     "type": "library",
     "authors": [
         {
-            "name": "Sven Mol",
-            "email": "s.mol@devcake.nl"
-        },
-        {
-            "name": "Jan Bláha",
-            "email": "jan.blaha@websta.de"
+            "name": "E-Solution",
+            "email": "tommy@elgibor-solution.com"
         }
     ],
     "require": {
@@ -22,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Websta\\LaravelLokiLogging\\": "src/"
+            "ESolution\\LaravelLokiLogging\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Websta\\LaravelLokiLogging\\L3ServiceProvider"
+                "ESolution\\LaravelLokiLogging\\L3ServiceProvider"
             ]
         }
     }

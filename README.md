@@ -3,8 +3,8 @@ _Logging to Loki for Laravel_
 _Fork https://github.com/rdemorais/laravel-loki-logging_
 
 ## Usage
-1. Install this package: `composer require devcake-deventer/laravel-loki-logging`
-2. Publish the configuration: `php artisan vendor:publish --provider=Devcake\\LaravelLokiLogging\\L3ServiceProvider`
+1. Install this package: `composer require elgibor-solution/laravel-loki-logging`
+2. Publish the configuration: `php artisan vendor:publish --provider=ESolution\\LaravelLokiLogging\\L3ServiceProvider`
 3. Create a new log channel in `config/logging.php`:
    ```php
    'loki' => [
@@ -26,6 +26,6 @@ The behaviour of the logger can be adjusted with the config options below.
 |---|---|---|
 |`context`|Extra variables to be added as labels to the message. Variable substitutions are available.|`application`: `env('LOG_APPLICATION')`<br/>`type`: `'{level_name}'`|
 |`format`|How log messages should be formatted. Variable substitutions are available.|`[{level_name}] {message}`|
-|`loki.server`|The loki server to which data should be logged.|`https://logging.devcake.app/loki`|
+|`loki.server`|The loki server to which data should be logged.|`https://<url>/loki`|
 |`loki.username`|Username for HTTP basic authentication, can be left empty.|Env-variable `LOG_USERNAME`|
 |`loki.password`|Password for HTTP basic authentication, can be left empty.|Env-variable `LOG_PASSWORD`|

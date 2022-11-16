@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Websta\LaravelLokiLogging;
+namespace ESolution\LaravelLokiLogging;
 
 use Illuminate\Support\ServiceProvider;
 
