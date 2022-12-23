@@ -11,7 +11,7 @@ class L3ServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/l3config.php' => config_path('l3config.php')
+            __DIR__ . '/l3config.php' => config_path('l3.php')
         ], 'laravel-loki-logging');
         $this->commands([
             L3Persister::class

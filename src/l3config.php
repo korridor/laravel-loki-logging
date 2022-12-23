@@ -9,5 +9,6 @@ return [
         'server' => env('LOG_SERVER', 'https://logging.app'),
         'username' => env('LOG_USERNAME', null),
         'password' => env('LOG_PASSWORD', null),
+        'tenant_id' => env('LOG_LOKI_TENANT_ID', null),
     ],
 ];
