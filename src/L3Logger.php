@@ -58,7 +58,7 @@ class L3Logger implements HandlerInterface
                 'time' => now()->getPreciseTimestamp(),
                 'tags' => $tags,
                 'message' => $message
-            ]) . "\n");
+            ]) . "\n") !== false;
     }
 
     public function handleBatch(array $records): void
